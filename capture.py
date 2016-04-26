@@ -28,4 +28,5 @@ def capture_all():
         pygame.image.save(image, file_name)
         print "Image saved:", file_name 
 
-main()
+if __name__ == "__main__":
+    main()
